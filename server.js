@@ -38,6 +38,10 @@ app.get('/api/trips', function (req, res) {
 });
 
 app.get('/', (req, res) => res.render('index'));
+app.get('/aboutus', (req, res) => res.render('aboutus'));
+app.get('/contact', (req, res) => res.render('contact'));
+
+
 
 app.get('/welcomepage', (req, res) => res.render('frontpage'));
 
