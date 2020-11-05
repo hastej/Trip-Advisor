@@ -28,6 +28,15 @@ app.engine('html', function(path, options, cb) {
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 
+app.get('/api/trips', function (req, res) {
+
+    var json_url = path.join(__dirname, 'api/fares.json');
+    var jsn_data = require(json_url);
+
+    res.json(jsn_data);
+});
+
+
 
 app.get('/', (req, res) => res.render('index'));
 app.get('/aboutus', (req, res) => res.render('aboutus'));
