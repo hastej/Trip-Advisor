@@ -51,5 +51,18 @@ body {
   margin: 10px 10px;
   font-family: 'Anton', sans-serif;
   text-align: center;
+  display: inline-block;
+  box-shadow: 4px 4px;
+
+
+}
+
+.ttt{
+  font-size: 15px!important;
+}
+.cpp{
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
 
 }
