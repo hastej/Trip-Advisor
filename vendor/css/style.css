@@ -12,6 +12,10 @@ body {
     float: right;
     display: inline-block;
 }
+.first-image{
+  max-width: 95%;
+  max-height: 95%;
+}
 .discount{
     float: right;
     display: inline-block;
